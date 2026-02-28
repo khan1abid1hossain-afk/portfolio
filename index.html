@@ -1,40 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Abid's Portfolio</title>
+    <title>Abid Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Khan Abid Hossain</h1>
-        <p>CSE Student | Beginner Web Developer</p>
-    </header>
-
-    <section class="about">
-        <h2>About Me</h2>
-        <p>I am a passionate CSE student learning programming and web development.</p>
-    </section>
-
-    <section class="skills">
-        <h2>My Skills</h2>
+    <nav>
+        <h2 class="logo">Abid</h2>
         <ul>
-            <li>C++</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Database (SQL)</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
         </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hi, I'm Khan Abid Hossain</h1>
+            <p>CSE Student | Web Developer</p>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="hero-img">
+            <img src="https://via.placeholder.com/250" alt="Profile">
+        </div>
     </section>
 
-    <section class="projects">
-        <h2>My Projects</h2>
-        <p>1. Student Management System (C++)</p>
-        <p>2. Stack Undo Operation Project</p>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am passionate about programming and building websites.</p>
     </section>
 
-    <section class="contact">
-        <h2>Contact Me</h2>
-        <p>Email: abid@example.com</p>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="card-container">
+            <div class="card">C++</div>
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">SQL</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="card-container">
+            <div class="card">Student Management System</div>
+            <div class="card">Stack Undo Operation</div>
+        </div>
     </section>
 
     <footer>
